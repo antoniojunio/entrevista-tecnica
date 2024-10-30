@@ -179,4 +179,43 @@ Em projetos, Lombok ajuda a reduzir significativamente o código repetitivo, esp
 
 ---
 
+## 11. Arquitetura Monolítica vs. Microserviços com Spring Boot
+
+### Arquitetura Monolítica
+
+"Uma arquitetura monolítica organiza toda a aplicação em um único projeto. Todas as funcionalidades – desde o backend até o front-end e o banco de dados – estão interligadas. No início, essa abordagem é mais fácil de desenvolver e implantar, pois há apenas um projeto para gerenciar. A comunicação entre as partes é direta e muito rápida. No entanto, à medida que a aplicação cresce, um monólito se torna difícil de escalar e manter, já que qualquer mudança exige a reimplantação de toda a aplicação."
+
+### Arquitetura de Microserviços com Spring Boot
+
+"Com microserviços, a aplicação é dividida em serviços independentes, cada um responsável por uma funcionalidade específica e com seu próprio banco de dados. Essa abordagem oferece escalabilidade e flexibilidade, pois cada serviço pode ser desenvolvido, implantado e escalado separadamente. O Spring Boot é ideal para microserviços porque facilita a criação de serviços leves e autônomos, com configurações automáticas que agilizam o desenvolvimento. Cada serviço comunica-se via APIs REST ou filas de mensagens, o que reduz o acoplamento e melhora a resiliência do sistema."
+
+---
+
+## 12. Principais Anotações do Spring
+
+1. **@SpringBootApplication**  
+   Combina três anotações principais: `@Configuration`, `@EnableAutoConfiguration` e `@ComponentScan`. Essa anotação é o ponto de entrada de uma aplicação Spring Boot, iniciando a configuração e o escaneamento de componentes automaticamente.
+
+2. **@RestController e @Controller**  
+   `@RestController` é usada para classes que respondem diretamente a requisições REST, como JSON, facilitando o desenvolvimento de APIs. Já `@Controller` é usada em aplicações com MVC, permitindo renderizar páginas HTML.
+
+3. **@RequestMapping e @GetMapping/@PostMapping**  
+   `@RequestMapping` define o mapeamento de requisições para métodos ou classes e pode definir endpoints e métodos HTTP. `@GetMapping` e `@PostMapping` são versões específicas para GET e POST, tornando o código mais limpo e legível.
+
+4. **@Service**  
+   Indica que uma classe implementa lógica de negócios, geralmente desacoplada dos controladores e repositórios. Essa separação facilita a manutenção e os testes.
+
+5. **@Repository**  
+   Aplica-se a classes que interagem diretamente com o banco de dados, como repositórios JPA. Ela também ajuda no tratamento automático de exceções de banco de dados.
+
+6. **@Autowired**  
+   Permite a injeção de dependência automática, facilitando o gerenciamento de componentes e a criação de um código menos acoplado.
+
+7. **@Transactional**  
+   Utilizada para garantir que operações de banco de dados sejam executadas em uma única transação, oferecendo rollback automático em caso de erro.
+
+---
+
+Esse resumo destaca a diferença entre monólitos e microserviços, e como o Spring Boot facilita a criação de microserviços modulares e escaláveis. A explicação das principais anotações do Spring mostra as ferramentas essenciais para estruturar uma aplicação de forma robusta e eficiente.
+
 Este repositório é uma referência para revisão de conceitos e boas práticas em Java e Spring Boot, proporcionando uma base sólida para entrevistas técnicas.
