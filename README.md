@@ -50,36 +50,7 @@ Este repositório contém um resumo detalhado dos principais conceitos de Java e
 
 ---
 
-## 6. Exemplos de Experiências com Aplicação de Boas Práticas
-
-Minha trajetória profissional engloba diversas empresas e projetos, onde apliquei práticas modernas de desenvolvimento e uso de tecnologias avançadas para entrega de soluções robustas e escaláveis.
-
-- **Fóton Informática S.A. (2024 - Presente)**  
-  Como Desenvolvedor Back End Java no projeto BRB Banco de Brasília, estou aplicando boas práticas de desenvolvimento com Spring Boot e uso extensivo de Log4J para monitoramento. Configuro dashboards no Grafana e alertas no CloudWatch para garantir a estabilidade e performance das APIs RESTful em produção.
-
-- **Samcorp Solution® (2022 - 2024)**  
-  Contribuí para sistemas internos utilizando Spring Boot e Spring Data JPA, aplicando injeção de dependências e o padrão Factory para criar componentes modulares. Configurei pipelines de CI/CD com testes automatizados e monitoramento de qualidade no SonarQube, assegurando uma cobertura de código de alto padrão.
-
-- **Compass UOL (2021 - 2022)**  
-  No projeto Ancar Ivanhoe e UolEdtech, trabalhei com Spring Boot 2.0 no backend e React no frontend. Utilizei RabbitMQ para comunicação assíncrona entre microserviços e implementei testes avançados com JUnit e Mockito, garantindo a qualidade e a estabilidade das integrações de API.
-
-- **ACCT | Consulting & Technology (2020 - 2021)**  
-  Atuei no desenvolvimento do e-commerce do Carrefour, aplicando Spring Boot e o padrão Adapter para integração de componentes. Utilizei testes de persistência para garantir consistência de dados em operações de banco de dados MySQL e implementei injeção de dependências para reduzir o acoplamento no código.
-
-- **Amazon Informática (2018 - 2020)**  
-  Trabalhei como Desenvolvedor Web em projetos para a Infraero, utilizando Angular e React no frontend e Spring Boot no backend. Apliquei Hibernate e JPA para gerenciar dados em SQL Server, priorizando encapsulamento e uso de `final` para manter a imutabilidade quando necessário.
-
-- **Zello Tecnologia (2015 - 2018)**  
-  Com experiência em projetos mobile, trabalhei para o BRB Banco de Brasília e o Inep, desenvolvendo com Angular e Ionic no frontend e Java no backend. Implementei APIs REST com Spring, otimizando o desempenho e a escalabilidade de aplicações móveis.
-
-- **CDS Tecnologia (2013 - 2015)**  
-  Como Estagiário Full Stack, atuei em projetos frontend e backend, usando AngularJS, BackboneJS e Java. Trabalhei com Hibernate e EJB para gerenciamento de dados e serviços, aplicando Scrum com Kanban para gerenciar entregas ágeis e incrementais.
-
-Essas experiências me proporcionaram uma sólida compreensão das melhores práticas em desenvolvimento backend e frontend, além de habilidades em monitoramento, testes e design patterns, garantindo a qualidade e robustez dos sistemas.
-
----
-
-## 7. Java: Melhorias nas Versões 8, 11, 17 e 21
+## 6. Java: Melhorias nas Versões 8, 11, 17 e 21
 
 ### Java 8
 
@@ -105,7 +76,7 @@ Essas experiências me proporcionaram uma sólida compreensão das melhores prá
 
 ---
 
-## 8. Modificadores de Acesso e `final` em Java
+## 7. Modificadores de Acesso e `final` em Java
 
 - **public**: Acessível de qualquer lugar.
 - **protected**: Acessível no mesmo pacote e em subclasses.
@@ -119,13 +90,13 @@ Essas experiências me proporcionaram uma sólida compreensão das melhores prá
 
 ---
 
-## 9. Encapsulamento e Acesso a Objetos e Métodos Privados
+## 8. Encapsulamento e Acesso a Objetos e Métodos Privados
 
 "Para garantir encapsulamento em Java, uso atributos `private` e métodos `public` ou `protected` para expor apenas o necessário, com getters e setters para controle. Dessa forma, o estado do objeto é protegido, o acoplamento é reduzido e a manutenção é facilitada."
 
 ---
 
-## 10. Lombok: Simplificando o Código em Java
+## 9. Lombok: Simplificando o Código em Java
 
 Lombok é uma biblioteca Java que reduz o código boilerplate, como getters, setters, construtores, `equals`, `hashCode`, entre outros, através de anotações. Com Lombok, o código fica mais limpo, legível e fácil de manter, especialmente em classes com muitos atributos. Abaixo estão algumas das anotações mais utilizadas e suas funcionalidades.
 
@@ -179,7 +150,7 @@ Em projetos, Lombok ajuda a reduzir significativamente o código repetitivo, esp
 
 ---
 
-## 11. Arquitetura Monolítica vs. Microserviços com Spring Boot
+## 10. Arquitetura Monolítica vs. Microserviços com Spring Boot
 
 ### Arquitetura Monolítica
 
@@ -191,7 +162,7 @@ Em projetos, Lombok ajuda a reduzir significativamente o código repetitivo, esp
 
 ---
 
-## 12. Principais Anotações do Spring
+## 11. Principais Anotações do Spring
 
 1. **@SpringBootApplication**  
    Combina três anotações principais: `@Configuration`, `@EnableAutoConfiguration` e `@ComponentScan`. Essa anotação é o ponto de entrada de uma aplicação Spring Boot, iniciando a configuração e o escaneamento de componentes automaticamente.
