@@ -247,7 +247,7 @@ Em projetos, Lombok ajuda a reduzir significativamente o código repetitivo, esp
 - Os módulos devem estar abertos para extensão, mas fechados para modificação, permitindo que novas funcionalidades sejam adicionadas sem alterar o código existente.
 
 - **L - Liskov Substitution Principle (LSP)**
-- Prefira interfaces específicas a interfaces genéricas, de modo que os clientes utilizem apenas os métodos que realmente necessitam. Isso evita a implementação de métodos desnecessários.
+- Objetos de uma classe derivada devem poder ser substituídos por objetos de sua classe base sem alterar o comportamento do programa. Isso garante consistência nas substituições de classes.
 
 - **I - Interface Segregation Principle (ISP)**
 - Prefira interfaces específicas a interfaces genéricas, de modo que os clientes utilizem apenas os métodos que realmente necessitam. Isso evita a implementação de métodos desnecessários.
