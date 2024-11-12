@@ -238,4 +238,23 @@ Em projetos, Lombok ajuda a reduzir significativamente o código repetitivo, esp
 
 ---
 
+## 16. SOLID
+
+- **S - Single Responsibility Principle (SRP)**
+- Cada classe ou módulo deve ter uma única responsabilidade, ou seja, apenas uma razão para ser modificada. Isso torna o código mais fácil de entender e de manter.
+
+- **O - Open/Closed Principle (OCP)**
+- Os módulos devem estar abertos para extensão, mas fechados para modificação, permitindo que novas funcionalidades sejam adicionadas sem alterar o código existente.
+
+- **L - Liskov Substitution Principle (LSP)**
+- Prefira interfaces específicas a interfaces genéricas, de modo que os clientes utilizem apenas os métodos que realmente necessitam. Isso evita a implementação de métodos desnecessários.
+
+- **I - Interface Segregation Principle (ISP)**
+- Prefira interfaces específicas a interfaces genéricas, de modo que os clientes utilizem apenas os métodos que realmente necessitam. Isso evita a implementação de métodos desnecessários.
+
+- **D - Dependency Inversion Principle (DIP)**
+- Dependa de abstrações, e não de implementações concretas. Isso torna o sistema mais modular e facilita a troca de dependências.
+
+---
+
 Este repositório é uma referência para revisão de conceitos e boas práticas em Java e Spring Boot, proporcionando uma base sólida para entrevistas técnicas.
