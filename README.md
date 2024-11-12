@@ -160,6 +160,10 @@ Em projetos, Lombok ajuda a reduzir significativamente o código repetitivo, esp
 
 "Com microserviços, a aplicação é dividida em serviços independentes, cada um responsável por uma funcionalidade específica e com seu próprio banco de dados. Essa abordagem oferece escalabilidade e flexibilidade, pois cada serviço pode ser desenvolvido, implantado e escalado separadamente. O Spring Boot é ideal para microserviços porque facilita a criação de serviços leves e autônomos, com configurações automáticas que agilizam o desenvolvimento. Cada serviço comunica-se via APIs REST ou filas de mensagens, o que reduz o acoplamento e melhora a resiliência do sistema."
 
+### Como os microsserviços se comunicam entre si?
+
+"Microsserviços podem se comunicar de várias maneiras, sendo as mais comuns via HTTP REST, RPC ou através de sistemas de mensageria como Kafka ou RabbitMQ, dependendo do caso de uso e da necessidade de garantir entrega assíncrona ou sincronização em tempo real."
+
 ---
 
 ## 11. Principais Anotações do Spring
@@ -256,5 +260,11 @@ Em projetos, Lombok ajuda a reduzir significativamente o código repetitivo, esp
 - Dependa de abstrações, e não de implementações concretas. Isso torna o sistema mais modular e facilita a troca de dependências.
 
 ---
+
+## 17. Docker e Kubernetes
+
+- Docker é uma plataforma de containers que permite empacotar uma aplicação com todas as suas dependências em um ambiente isolado e portátil. Os principais benefícios incluem a consistência entre ambientes de desenvolvimento e produção, isolamento de aplicações, e facilidade de escalabilidade.
+
+- Kubernetes é uma plataforma de orquestração de containers que automatiza a implantação, escalabilidade e gerenciamento de containers. Ele complementa o Docker, gerenciando grupos de containers em produção, distribuindo cargas de trabalho e monitorando o estado dos serviços.
 
 Este repositório é uma referência para revisão de conceitos e boas práticas em Java e Spring Boot, proporcionando uma base sólida para entrevistas técnicas.
