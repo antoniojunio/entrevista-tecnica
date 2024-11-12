@@ -187,6 +187,49 @@ Em projetos, Lombok ajuda a reduzir significativamente o código repetitivo, esp
 
 ---
 
+## 12. Ecossistema Spring
+
+- **Spring Boot**
+- Fornece configurações automáticas e inicialização rápida para criar aplicações independentes de produção.
+- **Spring Data**
+- Simplifica a interação com bancos de dados, permitindo a implementação de repositórios sem muito código.
+- **Spring Security**
+- Gerencia autenticação e autorização, oferecendo uma camada de segurança para as aplicações.
+- **Spring Cloud**
+- Facilita a construção de sistemas distribuídos com suporte para service discovery, configuração centralizada e comunicação entre microserviços.
+- **Spring Batch**
+- Ideal para processamento em lote de grandes volumes de dados, com suporte para jobs complexos e gestão de falhas.
+
+---
+
+## 13. Bancos de Dados Relacionais vs. Não Relacionais
+
+- Bancos Relacionais: Utilizam tabelas para armazenar dados e organizam informações em relações bem definidas. São ideais para dados estruturados e que requerem ACID (Atomicidade, Consistência, Isolamento, Durabilidade), como MySQL e PostgreSQL.
+
+- Bancos Não Relacionais (NoSQL): Armazenam dados de maneira mais flexível, como em documentos (MongoDB), colunas (Cassandra) ou grafos (Neo4j). São indicados para dados não estruturados e aplicações que necessitam de escalabilidade horizontal.
+
 Esse resumo destaca a diferença entre monólitos e microserviços, e como o Spring Boot facilita a criação de microserviços modulares e escaláveis. A explicação das principais anotações do Spring mostra as ferramentas essenciais para estruturar uma aplicação de forma robusta e eficiente.
+
+---
+
+## 14. Principais Serviços de AWS
+
+- **EC2** - Máquinas virtuais para hospedar aplicações e ambientes de desenvolvimento.
+- **S3** - Armazenamento escalável de objetos para arquivos e backups.
+- **RDS** - Banco de dados relacional gerenciado para MySQL, PostgreSQL, entre outros.
+- **Lambda** - Funções serverless que executam código sob demanda.
+- **Cognito** - Serviço de autenticação e autorização para gerenciar identidades de usuários.
+
+---
+
+## 15. Clean Code e Clean Architecture
+
+- **Clean Code**
+- Envolve escrever código claro, conciso e fácil de manter. Princípios como nomes significativos, simplicidade e DRY (Don’t Repeat Yourself) ajudam a criar um código limpo e legível.
+
+- **Clean Architecture**
+- Uma abordagem para organizar código de maneira modular, separando as camadas de negócios, interface de usuário e infraestrutura. A arquitetura limpa facilita testes e manutenção, além de permitir que cada camada seja independente.
+
+---
 
 Este repositório é uma referência para revisão de conceitos e boas práticas em Java e Spring Boot, proporcionando uma base sólida para entrevistas técnicas.
