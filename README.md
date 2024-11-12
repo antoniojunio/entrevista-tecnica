@@ -191,12 +191,16 @@ Em projetos, Lombok ajuda a reduzir significativamente o código repetitivo, esp
 
 - **Spring Boot**
 - Fornece configurações automáticas e inicialização rápida para criar aplicações independentes de produção.
+
 - **Spring Data**
 - Simplifica a interação com bancos de dados, permitindo a implementação de repositórios sem muito código.
+
 - **Spring Security**
 - Gerencia autenticação e autorização, oferecendo uma camada de segurança para as aplicações.
+
 - **Spring Cloud**
 - Facilita a construção de sistemas distribuídos com suporte para service discovery, configuração centralizada e comunicação entre microserviços.
+
 - **Spring Batch**
 - Ideal para processamento em lote de grandes volumes de dados, com suporte para jobs complexos e gestão de falhas.
 
@@ -208,16 +212,18 @@ Em projetos, Lombok ajuda a reduzir significativamente o código repetitivo, esp
 
 - Bancos Não Relacionais (NoSQL): Armazenam dados de maneira mais flexível, como em documentos (MongoDB), colunas (Cassandra) ou grafos (Neo4j). São indicados para dados não estruturados e aplicações que necessitam de escalabilidade horizontal.
 
-Esse resumo destaca a diferença entre monólitos e microserviços, e como o Spring Boot facilita a criação de microserviços modulares e escaláveis. A explicação das principais anotações do Spring mostra as ferramentas essenciais para estruturar uma aplicação de forma robusta e eficiente.
-
 ---
 
 ## 14. Principais Serviços de AWS
 
 - **EC2** - Máquinas virtuais para hospedar aplicações e ambientes de desenvolvimento.
+
 - **S3** - Armazenamento escalável de objetos para arquivos e backups.
+
 - **RDS** - Banco de dados relacional gerenciado para MySQL, PostgreSQL, entre outros.
+
 - **Lambda** - Funções serverless que executam código sob demanda.
+
 - **Cognito** - Serviço de autenticação e autorização para gerenciar identidades de usuários.
 
 ---
